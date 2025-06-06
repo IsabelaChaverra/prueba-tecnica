@@ -1,0 +1,226 @@
+.dashboard {
+  padding: 40px;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logout-btn {
+  background-color: #e50914;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #bf0810;
+}
+
+.bienvenida {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bienvenida h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.bienvenida p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.toggle-form-btn {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #00c853;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-form-btn:hover {
+  background-color: #00b248;
+}
+
+/* Formulario de nueva suscripción */
+.formulario {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.formulario input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.formulario input::placeholder {
+  color: #aaa;
+}
+
+.formulario button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #bf0810;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.grid-subscriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 0 20px;
+}
+
+.subscription-card {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.subscription-card:hover {
+  transform: scale(1.03);
+}
+
+.subscription-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subscription-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.cancelar-btn {
+  background-color: transparent;
+  border: 2px solid #ccc;
+  color: #ccc;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 20px auto;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.cancelar-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-color: white;
+}
+
+.buscador {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.buscador input {
+  padding: 10px 15px;
+  width: 300px;
+  max-width: 90%;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+}
+
+.buscador input::placeholder {
+  color: #aaa;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #bf0810;
+}
+
+.edit-btn {
+  margin-top: 8px;
+  margin-left: 10px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #1565c0;
+}
+
+.tarjeta-ejemplo {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 400px;
+  margin: 30px auto;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

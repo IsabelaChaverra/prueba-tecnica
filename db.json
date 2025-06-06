@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@pixelhub.com",
+      "password": "123456",
+      "name": "Admin"
+    },
+    {
+      "id": "ad30",
+      "email": "canochaverraisabela@gmail.com",
+      "password": "Apdx4376"
+    },
+    {
+      "id": "262f",
+      "email": "admin@pixelhub.co",
+      "password": "12345"
+    },
+    {
+      "id": "b21e",
+      "email": "isabela@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "c1e5",
+      "email": "amparo@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2624",
+      "email": "mauro@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "6405",
+      "email": "mauro@hotmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "524b",
+      "email": "mauricio@gmail.com",
+      "password": "1234567"
+    }
+  ],
+  "subscriptions": []
+}

@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@pixelhub.com",
+      "password": "123456",
+      "name": "Admin"
+    },
+    {
+      "id": "ad30",
+      "email": "canochaverraisabela@gmail.com",
+      "password": "Apdx4376"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "bea5",
+      "nombre": "adsnh",
+      "costo": "6",
+      "categoria": "Terror",
+      "fechaRenovacion": "2000-12-21"
+    },
+    {
+      "id": "dd60",
+      "nombre": "adsnh",
+      "costo": "6",
+      "categoria": "Terror",
+      "fechaRenovacion": "2000-12-21"
+    },
+    {
+      "id": "5756",
+      "nombre": "Isabela",
+      "costo": "32.000",
+      "categoria": "Series",
+      "fechaRenovacion": "2005-06-03"
+    }
+  ]
+}
