@@ -4,6 +4,11 @@ Este proyecto es una aplicación web desarrollada con **React** como parte de la
 
 ---
 
+## 🚀 Despliegue en Producción
+
+Accede a la aplicación desplegada en Vercel haciendo clic aquí:  
+🔗 [https://prueba-tecnica-isabela.vercel.app](https://prueba-tecnica-isabela.vercel.app)
+
 ## 🌐 Funcionalidades principales
 
 ✅ Inicio de sesión con autenticación simulada mediante JSON Server  
