@@ -40,7 +40,25 @@
       "id": "524b",
       "email": "mauricio@gmail.com",
       "password": "1234567"
+    },
+    {
+      "id": "da63",
+      "email": "sandra@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d999",
+      "email": "luis.soto@gmail.com",
+      "password": "123456"
     }
   ],
-  "subscriptions": []
+  "subscriptions": [
+    {
+      "id": "c527",
+      "nombre": "Isabela",
+      "costo": "76788",
+      "categoria": "Series",
+      "fechaRenovacion": "2000-09-09"
+    }
+  ]
 }
