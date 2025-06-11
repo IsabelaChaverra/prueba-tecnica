@@ -8,7 +8,7 @@ const Home = () => {
   const [email, setEmail] = useState('');
 
   const handleComenzar = () => {
-    if (!email) {
+    if (!email) { 
       alert('Por favor ingresa tu email');
       return;
     }
